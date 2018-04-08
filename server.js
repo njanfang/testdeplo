@@ -5,7 +5,7 @@ var app = express();
 var port = 80;
 
 app.get('/',function(req,res){
-	res.send("Hello from Njanfang...");
+	res.send("Hello from Njanfang......");
 });
 
 app.listen(port,function(){
