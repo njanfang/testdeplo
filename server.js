@@ -2,7 +2,7 @@ var express = require('express');
 var bodyparser = require('body-parser');
 var mongoose = require('mongoose');
 var app = express();
-var port = 3000;
+var port = 80;
 
 app.get('/',function(req,res){
 	res.send("Hello from Njanfang...");
